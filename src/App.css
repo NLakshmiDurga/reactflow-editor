@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
-
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NodeTypeButton {
+	border: #282c34 !important;
+	border-bottom: 2px solid #ff6347 !important; /* Replace with your desired color */
+	transition: border-color 0.3s ease !important;
+	width: 100%;
+	background-color: #656cb755 !important;
+}
+
+.BoxStyles{
+	background-color: #282c34 !important;
+	height: 100vh !important;
+	margin-top: 10px;
+}
+.css-1o011v7-MuiButtonBase-root-MuiButton-root{
+	border-bottom: #008000;
+}
+.ListItemIconStyle{
+	margin-left: -75px;
+}
+.react-flow__edge-textwrapper{
+	visibility: visible !important;
+}
+.react-flow__edge-textbg{
+	width: 15px !important;
+	height: 15px !important;
+	x: 0px !important;
+	y: -6px !important;
+}
+.MuiPaper-root{
+	width: 40%;
+}
+.rightdrawerForm{
+	padding: 15% !important;
 }
